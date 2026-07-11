@@ -1,0 +1,38 @@
+[
+  {
+    "timestamp": "2025-11-15T13:15:46.782Z",
+    "context": "showCampaignManager",
+    "error": {
+      "message": "Operation `campaigns.find()` buffering timed out after 10000ms",
+      "stack": "MongooseError: Operation `campaigns.find()` buffering timed out after 10000ms\n    at Timeout.<anonymous> (C:\\Users\\prome\\Downloads\\ZoomBOTFN\\ZoomBOT\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\collection.js:185:23)\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)"
+    },
+    "user": null
+  },
+  {
+    "timestamp": "2025-11-15T13:15:58.490Z",
+    "context": "showCampaignManager",
+    "error": {
+      "message": "Operation `campaigns.find()` buffering timed out after 10000ms",
+      "stack": "MongooseError: Operation `campaigns.find()` buffering timed out after 10000ms\n    at Timeout.<anonymous> (C:\\Users\\prome\\Downloads\\ZoomBOTFN\\ZoomBOT\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\collection.js:185:23)\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)"
+    },
+    "user": null
+  },
+  {
+    "timestamp": "2025-11-15T14:03:13.651Z",
+    "context": "showCampaignManager",
+    "error": {
+      "message": "Operation `campaigns.find()` buffering timed out after 10000ms",
+      "stack": "MongooseError: Operation `campaigns.find()` buffering timed out after 10000ms\n    at Timeout.<anonymous> (C:\\Users\\prome\\Downloads\\ZoomBOTFN\\ZoomBOT\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\collection.js:185:23)\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)"
+    },
+    "user": null
+  },
+  {
+    "timestamp": "2025-11-15T14:03:24.136Z",
+    "context": "showCampaignManager",
+    "error": {
+      "message": "Operation `campaigns.find()` buffering timed out after 10000ms",
+      "stack": "MongooseError: Operation `campaigns.find()` buffering timed out after 10000ms\n    at Timeout.<anonymous> (C:\\Users\\prome\\Downloads\\ZoomBOTFN\\ZoomBOT\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\collection.js:185:23)\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)"
+    },
+    "user": null
+  }
+]

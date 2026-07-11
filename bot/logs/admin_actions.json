@@ -1,0 +1,557 @@
+[
+  {
+    "timestamp": "2025-11-15T13:12:49.003Z",
+    "action": "ACCES_PANEL_OWNER",
+    "user": {
+      "id": "955077401543606292",
+      "tag": "void.ni"
+    },
+    "details": {
+      "channel": "moderator",
+      "guild": "Zoom# [ + ] BOT",
+      "args": []
+    }
+  },
+  {
+    "timestamp": "2025-11-15T13:15:02.659Z",
+    "action": "ACCES_PANEL_OWNER",
+    "user": {
+      "id": "955077401543606292",
+      "tag": "void.ni"
+    },
+    "details": {
+      "channel": "moderator",
+      "guild": "Zoom# [ + ] BOT",
+      "args": []
+    }
+  },
+  {
+    "timestamp": "2025-11-15T13:15:06.359Z",
+    "action": "SELECTION_MENU",
+    "user": {
+      "id": "955077401543606292",
+      "tag": "void.ni"
+    },
+    "details": {
+      "option": "config",
+      "page": 0
+    }
+  },
+  {
+    "timestamp": "2025-11-15T13:15:36.129Z",
+    "action": "SELECTION_MENU",
+    "user": {
+      "id": "955077401543606292",
+      "tag": "void.ni"
+    },
+    "details": {
+      "option": "campaign_manager",
+      "page": 0
+    }
+  },
+  {
+    "timestamp": "2025-11-15T13:15:40.849Z",
+    "action": "ACCES_PANEL_OWNER",
+    "user": {
+      "id": "955077401543606292",
+      "tag": "void.ni"
+    },
+    "details": {
+      "channel": "moderator",
+      "guild": "Zoom# [ + ] BOT",
+      "args": []
+    }
+  },
+  {
+    "timestamp": "2025-11-15T13:15:47.453Z",
+    "action": "SELECTION_MENU",
+    "user": {
+      "id": "955077401543606292",
+      "tag": "void.ni"
+    },
+    "details": {
+      "option": "campaign_manager",
+      "page": 0
+    }
+  },
+  {
+    "timestamp": "2025-11-15T13:15:53.709Z",
+    "action": "SELECTION_MENU",
+    "user": {
+      "id": "955077401543606292",
+      "tag": "void.ni"
+    },
+    "details": {
+      "option": "dashboard",
+      "page": 0
+    }
+  },
+  {
+    "timestamp": "2025-11-15T13:15:54.577Z",
+    "action": "DASHBOARD_ACCESS",
+    "user": {
+      "id": "955077401543606292",
+      "tag": "void.ni"
+    },
+    "details": {
+      "action": "dashboard_view",
+      "detailed": true
+    }
+  },
+  {
+    "timestamp": "2025-11-15T14:02:14.943Z",
+    "action": "ACCES_PANEL_OWNER",
+    "user": {
+      "id": "955077401543606292",
+      "tag": "void.ni"
+    },
+    "details": {
+      "channel": "moderator",
+      "guild": "Zoom# [ + ] BOT",
+      "args": []
+    }
+  },
+  {
+    "timestamp": "2025-11-15T14:02:48.807Z",
+    "action": "SELECTION_MENU",
+    "user": {
+      "id": "955077401543606292",
+      "tag": "void.ni"
+    },
+    "details": {
+      "option": "update_manager",
+      "page": 0
+    }
+  },
+  {
+    "timestamp": "2025-11-15T14:03:03.069Z",
+    "action": "SELECTION_MENU",
+    "user": {
+      "id": "955077401543606292",
+      "tag": "void.ni"
+    },
+    "details": {
+      "option": "campaign_manager",
+      "page": 0
+    }
+  },
+  {
+    "timestamp": "2025-11-15T14:03:13.551Z",
+    "action": "SELECTION_MENU",
+    "user": {
+      "id": "955077401543606292",
+      "tag": "void.ni"
+    },
+    "details": {
+      "option": "campaign_manager",
+      "page": 0
+    }
+  },
+  {
+    "timestamp": "2025-11-15T14:04:09.614Z",
+    "action": "SELECTION_MENU",
+    "user": {
+      "id": "955077401543606292",
+      "tag": "void.ni"
+    },
+    "details": {
+      "option": "bot_management",
+      "page": 0
+    }
+  },
+  {
+    "timestamp": "2025-11-15T14:04:11.409Z",
+    "action": "BOT_MANAGEMENT_ACCESS",
+    "user": {
+      "id": "955077401543606292",
+      "tag": "void.ni"
+    },
+    "details": {
+      "action": "bot_management_view"
+    }
+  },
+  {
+    "timestamp": "2025-11-15T14:04:45.071Z",
+    "action": "SELECTION_MENU",
+    "user": {
+      "id": "955077401543606292",
+      "tag": "void.ni"
+    },
+    "details": {
+      "option": "permission_manager",
+      "page": 0
+    }
+  },
+  {
+    "timestamp": "2025-11-15T14:10:13.633Z",
+    "action": "ACCES_PANEL_OWNER",
+    "user": {
+      "id": "955077401543606292",
+      "tag": "void.ni"
+    },
+    "details": {
+      "channel": "moderator",
+      "guild": "Zoom# [ + ] BOT",
+      "args": []
+    }
+  },
+  {
+    "timestamp": "2025-11-15T14:10:16.848Z",
+    "action": "SELECTION_MENU",
+    "user": {
+      "id": "955077401543606292",
+      "tag": "void.ni"
+    },
+    "details": {
+      "option": "campaign_manager",
+      "page": 0
+    }
+  },
+  {
+    "timestamp": "2025-11-15T14:10:17.607Z",
+    "action": "CAMPAIGN_MANAGER_ACCESS",
+    "user": {
+      "id": "955077401543606292",
+      "tag": "void.ni"
+    },
+    "details": {
+      "action": "campaign_manager_view",
+      "campaigns": 0,
+      "templates": 5
+    }
+  },
+  {
+    "timestamp": "2025-11-15T19:14:06.442Z",
+    "action": "ACCES_PANEL_OWNER",
+    "user": {
+      "id": "955077401543606292",
+      "tag": "void.ni"
+    },
+    "details": {
+      "channel": "uhq",
+      "guild": "Zoom# [ + ] BOT",
+      "args": []
+    }
+  },
+  {
+    "timestamp": "2025-11-15T19:14:22.936Z",
+    "action": "SELECTION_MENU",
+    "user": {
+      "id": "955077401543606292",
+      "tag": "void.ni"
+    },
+    "details": {
+      "option": "bot_management",
+      "page": 0
+    }
+  },
+  {
+    "timestamp": "2025-11-15T19:14:23.646Z",
+    "action": "BOT_MANAGEMENT_ACCESS",
+    "user": {
+      "id": "955077401543606292",
+      "tag": "void.ni"
+    },
+    "details": {
+      "action": "bot_management_view"
+    }
+  },
+  {
+    "timestamp": "2025-11-15T19:14:55.548Z",
+    "action": "SELECTION_MENU",
+    "user": {
+      "id": "955077401543606292",
+      "tag": "void.ni"
+    },
+    "details": {
+      "option": "campaign_manager",
+      "page": 0
+    }
+  },
+  {
+    "timestamp": "2025-11-15T19:14:56.424Z",
+    "action": "CAMPAIGN_MANAGER_ACCESS",
+    "user": {
+      "id": "955077401543606292",
+      "tag": "void.ni"
+    },
+    "details": {
+      "action": "campaign_manager_view",
+      "campaigns": 0,
+      "templates": 5
+    }
+  },
+  {
+    "timestamp": "2025-11-16T08:32:53.486Z",
+    "action": "ACCES_PANEL_OWNER",
+    "user": {
+      "id": "955077401543606292",
+      "tag": "void.ni"
+    },
+    "details": {
+      "channel": "uhq",
+      "guild": "Zoom# [ + ] BOT",
+      "args": []
+    }
+  },
+  {
+    "timestamp": "2025-11-16T08:33:46.066Z",
+    "action": "TENTATIVE_ACCES_NON_AUTORISE",
+    "user": {
+      "id": "1350126045155557506",
+      "tag": "scxrifieur"
+    },
+    "details": {
+      "command": "hown",
+      "args": [],
+      "channel": "uhq",
+      "guild": "Zoom# [ + ] BOT"
+    }
+  },
+  {
+    "timestamp": "2025-11-16T08:34:48.557Z",
+    "action": "ACCES_PANEL_OWNER",
+    "user": {
+      "id": "1409546325803929741",
+      "tag": "2k61"
+    },
+    "details": {
+      "channel": "uhq",
+      "guild": "Zoom# [ + ] BOT",
+      "args": []
+    }
+  },
+  {
+    "timestamp": "2025-11-16T08:38:59.138Z",
+    "action": "ACCES_PANEL_OWNER",
+    "user": {
+      "id": "1409546325803929741",
+      "tag": "2k61"
+    },
+    "details": {
+      "channel": "💬・chat",
+      "guild": "LE CARTEL #🇧🇷",
+      "args": []
+    }
+  },
+  {
+    "timestamp": "2025-11-20T08:48:27.298Z",
+    "action": "ACCES_PANEL_OWNER",
+    "user": {
+      "id": "1409546325803929741",
+      "tag": "2k61"
+    },
+    "details": {
+      "channel": "💬・chat",
+      "guild": "LE CARTEL #🇧🇷",
+      "args": []
+    }
+  },
+  {
+    "timestamp": "2025-11-20T08:48:39.663Z",
+    "action": "SELECTION_MENU",
+    "user": {
+      "id": "1409546325803929741",
+      "tag": "2k61"
+    },
+    "details": {
+      "option": "permission_manager",
+      "page": 0
+    }
+  },
+  {
+    "timestamp": "2025-11-20T20:41:27.310Z",
+    "action": "ACCES_PANEL_OWNER",
+    "user": {
+      "id": "1409546325803929741",
+      "tag": "2k61"
+    },
+    "details": {
+      "channel": "🌍・générale",
+      "guild": "Kushiro",
+      "args": []
+    }
+  },
+  {
+    "timestamp": "2025-12-01T16:14:11.422Z",
+    "action": "ACCES_PANEL_OWNER",
+    "user": {
+      "id": "1409546325803929741",
+      "tag": "2k61"
+    },
+    "details": {
+      "channel": "🧧•𝑮𝒆́𝒏𝒆́𝒓𝒂𝒍•",
+      "guild": "𝐏𝐄𝐑𝐎𝐗𝐈𝐃𝐀𝐒𝐒 𐙚",
+      "args": []
+    }
+  },
+  {
+    "timestamp": "2025-12-01T16:14:27.083Z",
+    "action": "SELECTION_MENU",
+    "user": {
+      "id": "1409546325803929741",
+      "tag": "2k61"
+    },
+    "details": {
+      "option": "bot_management",
+      "page": 0
+    }
+  },
+  {
+    "timestamp": "2025-12-01T16:14:28.220Z",
+    "action": "BOT_MANAGEMENT_ACCESS",
+    "user": {
+      "id": "1409546325803929741",
+      "tag": "2k61"
+    },
+    "details": {
+      "action": "bot_management_view"
+    }
+  },
+  {
+    "timestamp": "2025-12-01T16:25:07.282Z",
+    "action": "ACCES_PANEL_OWNER",
+    "user": {
+      "id": "1409546325803929741",
+      "tag": "2k61"
+    },
+    "details": {
+      "channel": "general-francais",
+      "guild": "Mando",
+      "args": []
+    }
+  },
+  {
+    "timestamp": "2025-12-13T22:34:21.038Z",
+    "action": "ACCES_PANEL_OWNER",
+    "user": {
+      "id": "1409546325803929741",
+      "tag": "ggfils"
+    },
+    "details": {
+      "channel": "〩 ・Vocal 1",
+      "guild": "Yushiro",
+      "args": []
+    }
+  },
+  {
+    "timestamp": "2025-12-13T22:34:52.277Z",
+    "action": "TENTATIVE_ACCES_NON_AUTORISE",
+    "user": {
+      "id": "1078574631193157662",
+      "tag": "svh7"
+    },
+    "details": {
+      "command": "hown",
+      "args": [],
+      "channel": "〩 ・Vocal 1",
+      "guild": "Yushiro"
+    }
+  },
+  {
+    "timestamp": "2025-12-17T22:47:05.485Z",
+    "action": "ACCES_PANEL_OWNER",
+    "user": {
+      "id": "1409546325803929741",
+      "tag": "ggfils"
+    },
+    "details": {
+      "channel": "chat",
+      "guild": "pv lol",
+      "args": []
+    }
+  },
+  {
+    "timestamp": "2025-12-30T17:16:59.424Z",
+    "action": "ACCES_PANEL_OWNER",
+    "user": {
+      "id": "955077401543606292",
+      "tag": "void.ni"
+    },
+    "details": {
+      "channel": "⛔・chat",
+      "guild": "Le Sanctuaire⛩",
+      "args": []
+    }
+  },
+  {
+    "timestamp": "2025-12-30T17:17:39.051Z",
+    "action": "SELECTION_MENU",
+    "user": {
+      "id": "955077401543606292",
+      "tag": "void.ni"
+    },
+    "details": {
+      "option": "campaign_manager",
+      "page": 0
+    }
+  },
+  {
+    "timestamp": "2025-12-30T17:17:40.894Z",
+    "action": "CAMPAIGN_MANAGER_ACCESS",
+    "user": {
+      "id": "955077401543606292",
+      "tag": "void.ni"
+    },
+    "details": {
+      "action": "campaign_manager_view",
+      "campaigns": 0,
+      "templates": 5
+    }
+  },
+  {
+    "timestamp": "2025-12-30T17:42:37.042Z",
+    "action": "TENTATIVE_ACCES_NON_AUTORISE",
+    "user": {
+      "id": "1089155740637343814",
+      "tag": "lebgcnoe"
+    },
+    "details": {
+      "command": "hown",
+      "args": [],
+      "channel": "terminal",
+      "guild": "Digital $hop 🤑 #Cheap"
+    }
+  },
+  {
+    "timestamp": "2025-12-30T17:42:51.106Z",
+    "action": "TENTATIVE_ACCES_NON_AUTORISE",
+    "user": {
+      "id": "1089155740637343814",
+      "tag": "lebgcnoe"
+    },
+    "details": {
+      "command": "hown",
+      "args": [],
+      "channel": "moderator-only",
+      "guild": "Halal serv"
+    }
+  },
+  {
+    "timestamp": "2026-01-12T22:26:05.657Z",
+    "action": "ACCES_PANEL_OWNER",
+    "user": {
+      "id": "1409546325803929741",
+      "tag": "lti7"
+    },
+    "details": {
+      "channel": "txt",
+      "guild": "pv goon",
+      "args": []
+    }
+  },
+  {
+    "timestamp": "2026-02-20T15:20:23.178Z",
+    "action": "TENTATIVE_ACCES_NON_AUTORISE",
+    "user": {
+      "id": "1443243403457331281",
+      "tag": "chienasse"
+    },
+    "details": {
+      "command": "hown",
+      "args": [],
+      "channel": "chat",
+      "guild": "Ephemere"
+    }
+  }
+]
