@@ -1,0 +1,52 @@
+# Documentation complète du système Casino du bot
+
+## 1. Système d'économie
+- **Crédits Casino (JTN)** : Monnaie principale, utilisée pour jouer, acheter des objets, etc.
+- **Gains/Pertes** : Chaque jeu peut faire gagner ou perdre des crédits. Les transactions passent toujours par le module casino pour garantir la cohérence.
+- **Solde** : Consultable avec la commande `cbalance`.
+- **Banque de guilde** : Système de dépôt/retrait collectif pour les membres d'une guilde (`guildbank`).
+
+## 2. Système de progression
+- **Niveau Casino** : Gagné en jouant, donne des bonus sur les claims quotidiens.
+- **XP Casino** : Gagnée à chaque partie, permet de monter de niveau.
+- **Prestige** : Permet de réinitialiser sa progression contre des bonus permanents.
+- **Streak (Série)** : Nombre de jours consécutifs de claim quotidien, donne des bonus cumulés.
+- **VIP** : Statut spécial donnant des bonus sur les gains et le claim.
+
+## 3. Système de récompenses
+- **Claim quotidien (`cclaim`)** : Permet de récupérer des crédits chaque jour, avec bonus de streak, niveau, VIP, milestones (7, 30, 100 jours).
+- **Achievements** : Succès à débloquer (streak, gains, pertes, milestones, etc.), certains donnent des récompenses en crédits.
+
+## 4. Jeux disponibles
+- **Slots (`cslots`)** : Machine à sous classique, mise personnalisable, jackpot possible.
+- **Roulette (`croulette`)** : Mise sur un numéro/couleur, gains selon la probabilité.
+- **Blackjack (`cblackjack`)** : Jeu de cartes contre la banque.
+- **Coinflip (`cflip`)** : Pile ou face, double ou rien.
+- **Dés (`cdice`)** : Parie sur le résultat d’un lancer de dés.
+- **Roue de la fortune (`cwheel`)** : Tourne la roue pour multiplier ta mise.
+- **Mines (`cmines`)** : Jeu de mines façon Minesweeper.
+- **Lootbox (`copenloot`)** : Ouvre des coffres pour obtenir des récompenses aléatoires.
+- **Missions (`cmissions`)** : Objectifs quotidiens/hebdo à remplir pour gagner des crédits ou objets.
+- **Travail (`ctravail`)** : Choisis un métier, travaille chaque jour pour gagner des crédits et faire progresser tes compétences.
+- **Tournois (`ctournament`)** : Système de compétitions entre joueurs (si activé).
+- **Classements (`ctop`, `cstats`)** : Affiche les meilleurs joueurs selon différents critères (solde, xp, victoires, etc.).
+
+## 5. Système d’objets et boutique
+- **Objets Casino** : Utilisables via `cuse`, donnent des bonus temporaires ou permanents.
+- **Boutique** : Achat d’objets, boosts, tickets, etc. (si activé).
+
+## 6. Sécurité et anti-abus
+- **Cooldowns** : Chaque jeu a un délai d’attente pour éviter le spam.
+- **Suspension** : Les admins peuvent suspendre l’accès casino à un joueur/guilde.
+- **Logs** : Toutes les transactions et parties sont loguées pour audit.
+
+## 7. Divers
+- **Personnalisation** : Thèmes d’embed, bannières, etc.
+- **Notifications** : Système d’alertes pour les gros gains, achievements, etc.
+
+---
+
+**Remarque** :
+- Toute nouvelle idée doit être comparée à cette liste pour éviter les doublons.
+- Si une idée existe déjà sous une autre forme, elle est listée ici.
+- Pour plus de détails sur chaque jeu ou système, voir le code source ou demander une explication ciblée.

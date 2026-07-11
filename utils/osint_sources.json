@@ -1,0 +1,25 @@
+{
+  "description": "Sources OSINT utilisees par lookup. Cles optionnelles = plus de resultats.",
+  "project_config": {
+    "file": "config.json",
+    "section": "APIS",
+    "sources": [
+      { "id": "SNUSBASE", "name": "Snusbase", "key": "APIS.SNUSBASE.API_KEY" },
+      { "id": "INTEL_X", "name": "IntelX", "key": "APIS.INTEL_X.API_KEY" },
+      { "id": "NAZAPI", "name": "NazAPI", "key": "APIS.NAZAPI.API_KEY" }
+    ]
+  },
+  "env_vars": [
+    { "key": "HIBP_API_KEY", "for": "breach" },
+    { "key": "LEAKCHECK_API_KEY", "for": "breach" },
+    { "key": "EMAILREP_API_KEY", "for": "email" },
+    { "key": "HUNTER_API_KEY", "for": "email" },
+    { "key": "IPINFO_TOKEN", "for": "ip" },
+    { "key": "IPHUB_API_KEY", "for": "ip" },
+    { "key": "ABUSEIPDB_API_KEY", "for": "ip" },
+    { "key": "URLSCAN_API_KEY", "for": "domain" },
+    { "key": "NUMVERIFY_API_KEY", "for": "phone" },
+    { "key": "ABSTRACT_API_KEY", "for": "phone" }
+  ],
+  "no_key": ["ip-api.com", "ipwhois.app", "Shodan InternetDB", "HackerTarget", "crt.sh", "Psbdmp", "Dumpz", "Ghostbin", "LeakCheck public"]
+}

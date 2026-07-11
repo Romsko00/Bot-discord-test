@@ -1,0 +1,90 @@
+{
+  "color": "#ffffff",
+  "prefix": "+",
+  "name": "Zoom BOT",
+  "defaultjoinmessage": "{user} vient de rejoindre. Il a été invité par **{inviter:name}** qui a désormais **{invite} invitations** !",
+  "defaultleavemessage": "{user} vient de quitter. Il avais été invité par **{inviter:name}** qui a désormais **{invite} invitations** ",
+  "defaultLevelmessage": "**{user}** vient de passer au level **{level}** bravo à lui !",
+  "superadmin": [
+    "955077401543606292",
+    "id"
+  ],
+  "owners": [],
+  "DISCORD": {
+    "TOKEN": [
+      ""
+    ],
+    "PREFIX": "+",
+    "GUILD_ID": [
+      "1408588293053878292",
+      "1369734682278625370"
+    ],
+    "ADMIN_IDS": [
+      "955077401543606292"
+    ]
+  },
+  "APIS": {
+    "INTEL_X": {
+      "API_KEY": "YOUR_INTEL_X_API_KEY",
+      "BASE_URL": "https://2.intelx.io"
+    },
+    "SNUSBASE": {
+      "API_KEY": "YOUR_SNUSBASE_API_KEY",
+      "BASE_URL": "https://api-experimental.snusbase.com"
+    },
+    "NAZAPI": {
+      "API_KEY": "YOUR_NAZAPI_API_KEY",
+      "BASE_URL": "https://api.nazapi.com"
+    },
+    "GIPHY": {
+      "GIFS": {
+        "roulette": "https://media.giphy.com/media/l0MYwONBGDS7aPG7q/giphy.gif",
+        "slots": "https://media.giphy.com/media/xT0GqeSlGSRQutU1a0/giphy.gif",
+        "dice": "https://media.giphy.com/media/26tPplGWjN0xLybiU/giphy.gif",
+        "coinflip": "https://media.giphy.com/media/26xBukh9G7n2AFz3u/giphy.gif",
+        "blackjack": "https://media.giphy.com/media/3o6ZtpxSZbQRRnwCKQ/giphy.gif"
+      }
+    }
+  },
+  "CASINO": {
+    "DAILY_AMOUNT": 50,
+    "SLOTS": {
+      "MIN_BET": 10,
+      "MAX_BET": 1000,
+      "COOLDOWN_MS": 5000,
+      "JACKPOT_CUT": 0.05
+    }
+  },
+  "CREDITS": {
+    "DAILY_AMOUNT": 10,
+    "COST_INTEL_X": 5,
+    "COST_SNUSBASE": 3,
+    "COST_NAZAPI": 2,
+    "COST_GEOIP": 1,
+    "LEVEL_MULTIPLIER": 0.04,
+    "MAX_LEVEL_DISCOUNT": 1
+  },
+  "LEVELS": {
+    "XP_PER_MESSAGE": {
+      "MIN": 5,
+      "MAX": 10
+    },
+    "XP_REQUIRED_PER_LEVEL": 500,
+    "VOICE_XP_PER_MINUTE": 5,
+    "COOLDOWN_MESSAGE": 60000,
+    "COOLDOWN_VOICE": 300000
+  },
+  "SETTINGS": {
+    "EMBED_COLOR": "#ffffff",
+    "STATUS_MESSAGE": "Zoom BOT | +help",
+    "DEFAULT_LEVEL_MESSAGE": "Félicitations {user} ! Tu viens de passer au niveau {level} ! 🎉",
+    "MAX_FILE_SIZE": 8388608,
+    "CLEANUP_INTERVAL": 21600000,
+    "SESSION_CLEANUP": 1800000,
+    "EMOJI_DIR": ""
+  },
+  "ENDPOINTS": {
+    "IPINFO": "https://ipinfo.io/",
+    "IP_API": "http://ip-api.com/json/"
+  }
+}
