@@ -1,0 +1,19 @@
+        // Enregistrement des commandes slash (OSINT + /ghost + /confess) pour ce client
+        try {
+          const { REST, Routes } = require('discord.js');
+          const { getOsintSlashCommandsJson } = require('./utils/osintSlashCommands');
+          const ghostCommand   = require('./commands/admin/ghost');
+          const confessCommand = require('./commands/fun/confess');
+          const token = client.token || client.botToken;
+          if (token && client.user?.id) {
+            const rest = new REST().setToken(token);
+            const osintBody  = getOsintSlashCommandsJson();
+            const ghostJson  = ghostCommand.data.toJSON();
+            const confessJson = confessCommand.data.toJSON();
+            const body = [...osintBody, ghostJson, confessJson];
+            await rest.put(Routes.applicationCommands(client.user.id), { body });
+            logger.info(`[CLIENT ${idx}] ${body.length} commande(s) slash enregistrée(s) (OSINT + /ghost + /confess).`);
+          }
+        } catch (slashErr) {
+          logger.warn(`[CLIENT ${idx}] Slash commands non enregistrées:`, slashErr.message);
+        }

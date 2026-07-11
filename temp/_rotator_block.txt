@@ -1,0 +1,27 @@
+    // Système de bienvenue chargé via loadEvents()
+
+    logger.info('=== BOT DÉMARRÉ AVEC SUCCÈS ===');
+
+    // Démarrer le cycle de mise à jour des statistiques
+    try {
+        initStatsInterval(clients);
+    } catch (e) {
+        logger.error('[STATS] Échec de l\'initialisation de l\'intervalle:', e);
+    }
+
+    // Démarrer le rotateur de statuts pour chaque client (si actif)
+    try {
+        const { startRotation } = require('./commands/owner/statut');
+        const db = require('./utils/simpledb');
+        // On attend que les clients soient connectés avant de démarrer la rotation
+        setTimeout(() => {
+            clients.forEach((c) => {
+                if (c?.user?.id && db.get(`statut_active_${c.user.id}`)) {
+                    startRotation(c);
+                    logger.info(`[STATUT-ROTATOR] Rotation démarrée pour ${c.user.tag}`);
+                }
+            });
+        }, 5000);
+    } catch (e) {
+        logger.error('[STATUT-ROTATOR] Erreur au démarrage:', e);
+    }
